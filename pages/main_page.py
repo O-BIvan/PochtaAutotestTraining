@@ -17,9 +17,9 @@ class MainPage(BasePage):
         submit_button = self.browser.find_element(*BasePageLocators.TRACK_SUBMIT)
         submit_button.click()
 
-    def search_wrong_track_id(self):
+    def search_incorrect_track_id(self):
         input_form = self.browser.find_element(*BasePageLocators.TRACK_ID_INPUT)
-        input_form.send_keys(TrackIds.TRACK_ID_WRONG)
+        input_form.send_keys(TrackIds.TRACK_ID_INCORRECT)
 
 
 
