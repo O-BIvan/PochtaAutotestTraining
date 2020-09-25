@@ -1,16 +1,25 @@
 from selenium.webdriver.common.by import By
 
 
-class TrackIds:
-    TRACK_ID_WORLD = "CA123456789RU"
-    TRACK_ID_RUSSIA = "35005145009747"
-    TRACK_ID_INCORRECT = "123AB23"
-
-
 class BasePageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "b-header__menu-item--enter")
     TRACK_ID_INPUT = (By.CSS_SELECTOR, "#tracking-number")
     TRACK_SUBMIT = (By.CSS_SELECTOR, ".SearchButton-sc-1dh275s-0")  # генерируется? поменять привязку?
+
+
+class LoginPageLocators:
+    USERNAME_INPUT = (By.CSS_SELECTOR, "#username")
+    PASSWORD_INPUT = (By.CSS_SELECTOR, "#userpassword")
+
+
+class MainPageLocators:
+    LOGIN_BUTTON = (By.CSS_SELECTOR, ".b-header__menu-item--enter .b-header__item")
+
+
+class TrackIds:
+    TRACK_ID_WORLD = "CA123456789RU"
+    TRACK_ID_RUSSIA = "35005145009747"
+    TRACK_ID_INCORRECT = "123AB23"
 
 
 class TrackPageLocators:
