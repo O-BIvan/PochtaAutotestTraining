@@ -9,10 +9,6 @@ class BasePage:
         self.url = url
         self.browser.implicitly_wait(timeout)  # replace with explicit wait ?
 
-    def go_to_login_page(self):
-        login_link = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
-        login_link.click()
-
     def is_element_present(self, how, what):
         try:
             self.browser.find_element(how, what)
