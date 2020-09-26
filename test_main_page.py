@@ -15,7 +15,6 @@ def test_guest_can_track_from_main_page(browser):
     track_page.should_be_search_track_id_success()
 
 
-@pytest.mark.rerun
 @pytest.mark.positive
 def test_guest_can_go_to_login_page(browser):
     page = MainPage(browser, LinkAndId.LINK_MAIN)
