@@ -2,8 +2,13 @@
 
 **under construction 
 
-Contains a few autotests for www.pochta.ru (Selenium + Pytest)
+Summmary: Contains a few autotests for www.pochta.ru (Selenium + Pytest)<br/>
+  
+  
+  
+  
 
+~~Doesn't contain a cat in README.md~~ 
 
 <pre>
          /\_/\
