@@ -16,7 +16,7 @@ def test_guest_can_track_from_main_page(browser):
 
 
 @pytest.mark.positive
-def test_guest_can_go_to_login_page(browser):
+def test_guest_can_go_to_login_page_from_main_page(browser):
     page = MainPage(browser, LinkAndId.LINK_MAIN)
     page.open()
     page.go_to_login_page_from_main_page()
