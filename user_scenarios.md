@@ -6,7 +6,7 @@ Scenario:
 1) Guest opens the main page
 2) Types in **valid** track id into track input field
 3) Got redirected to tracking page
-4) Result of the search displayed on the page
+4) Result of the search, corresponding with id, displayed on the page
 ___
 Test name: test_guest_can_go_to_login_page_from_main_page</br>
 
